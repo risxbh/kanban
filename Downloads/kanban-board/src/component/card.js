@@ -28,7 +28,7 @@ function Card({ title, id, name, status, priority, tag, groupby, available }) {
     if (groupby === "Status") {
       setShowStatus("none");
     } else if (groupby === "Priority") {
-      setShowPriority("flex");
+      setShowPriority("none");
     } else if (groupby === "User") {
       setShowUser("none");
     }
