@@ -20,6 +20,7 @@ nav.popup-dropdown button {
   display: flex;
   align-items: center;
   font-size: 11px;
+  color: black;
 }
 .dropdown {
   /* display: flex; */
@@ -58,6 +59,7 @@ nav.popup-dropdown button {
   border: 1px solid #c3c3c3;
   border-radius: 7px;
   font-size: 11px;
+  color: black;
 }
 nav.popup-dropdown button img {
   width: 10px;
@@ -73,6 +75,7 @@ nav.popup-dropdown button img:nth-child(2) {
   display: flex;
   justify-content: space-between;
   font-size: 12px;
+  color: grey;
 }
 
 .profile-con img {
@@ -111,6 +114,7 @@ nav.popup-dropdown button img:nth-child(2) {
 .grey-con {
   border: 1px solid #e7e7e7;
   padding: 6px 4px;
+  color: #5c5c5c;
 }
 
 .card-footer {
@@ -148,7 +152,7 @@ nav.popup-dropdown button img:nth-child(2) {
   width: 10px;
   height: 10px;
   border-radius: 10px;
-  background: grey;
+  background: #cfcfcf;
 }
 
 .card {

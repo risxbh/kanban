@@ -3,7 +3,7 @@ import "../App.css";
 
 function Card({ title, id, name, status, priority, tag, groupby, available }) {
   const [showStatus, setShowStatus] = useState("block");
-  const [showPriority, setShowPriority] = useState("block");
+  const [showPriority, setShowPriority] = useState("flex");
   const [showUser, setShowUser] = useState("block");
   const [availableStatus, setAvailableStatus] = useState("block");
   const statusImages = {
@@ -28,7 +28,7 @@ function Card({ title, id, name, status, priority, tag, groupby, available }) {
     if (groupby === "Status") {
       setShowStatus("none");
     } else if (groupby === "Priority") {
-      setShowPriority("none");
+      setShowPriority("flex");
     } else if (groupby === "User") {
       setShowUser("none");
     }
